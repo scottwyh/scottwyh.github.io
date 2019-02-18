@@ -3,7 +3,7 @@ title: Nemo's Blog                                 # 博客的标题
 SEOTitle: Captain Nemo的博客 | Nemo's Blog          # 搜索的时候，显示在浏览器上的标题
 header-img: img/post-bg-desk.jpg                   # 显示在首页的背景图片
 email: yvonwrong@gmail.com                         # 邮箱
-description: "勤学如春起之苗，不见其增，日有所长；辍学如磨刀之石，不见其损，日有所亏"  # 网站介绍
+description: "Nemo's Blog"  # 网站介绍
 keyword: "AI, Machine Learning, Deep Learning, Computer vision, Python, C++"     # 关键词
 url: "https://scottwyh.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog',这个不用填写
