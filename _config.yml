@@ -20,7 +20,7 @@ sidebar-avatar: /img/about-Nemo-a.jpg      # 个人头像 use absolute URL, seei
 RSS: false
 # weibo_username:     qiubaiying
 zhihu_username:       LEYM
-# github_username:     scottwyh
+github_username:     scottwyh
 # facebook_username:  baiying.qiu.7
 jianshu_username:    05c8324cee76
 # twitter_username:   qiubaiying
@@ -102,10 +102,14 @@ friends: [
         title: "Kaggle",
         href: "https://www.kaggle.com/"
     },{
-        title: "TAI",
+        title: "阿里天池AI",
         href: "https://tianchi.aliyun.com/home/"
     },{
-        title: "My public account",
-        href: "https://mp.weixin.qq.com/misc/getqrcode?fakeid=3568810260&token=1136134776&action=download&style=1&pixsize=224"
+        title: "Stanford",
+        href: "https://online.stanford.edu/courses"
+    },{
+        title: "MIT",
+        href: "https://ocw.mit.edu/index.htm"
     }
+    
 ]
