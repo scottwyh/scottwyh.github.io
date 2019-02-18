@@ -97,18 +97,15 @@ service-worker: true
 
 
 # Friends
-#friends: [
-#    {
-#        title: "WY",
-#        href: "http://zhengwuyang.com"
-#    },{
-#        title: "简书·BY",
-#        href: "http://www.jianshu.com/u/e71990ada2fd"
-#    },{
-#        title: "Apple",
-#        href: "https://apple.com"
-#    },{
-#        title: "Apple Developer",
-#        href: "https://developer.apple.com/"
-#    }
-#]
+friends: [
+    {
+        title: "Kaggle",
+        href: "https://www.kaggle.com/"
+    },{
+        title: "TAI",
+        href: "https://tianchi.aliyun.com/home/"
+    },{
+        title: "My public account",
+        href: "https://mp.weixin.qq.com/misc/getqrcode?fakeid=3568810260&token=1136134776&action=download&style=1&pixsize=224"
+    }
+]
