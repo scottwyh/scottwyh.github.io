@@ -1,2 +1,4 @@
-# http://scottwyh.github.io
-wahz.top  
+wahz.top 
+#若没有阿里云域名时，此处写为http://scottwyh.github.io 或 https://scottwyh.github.io；注意要与Nemo's Blog->http://scottwyh.github.io或Nemo's Blog->https://scottwyh.github.io
+# 相一致。并保持_config.yml中url不变。
+ 
