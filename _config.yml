@@ -2,7 +2,7 @@
 title: Nemo's Blog                                 # 博客的标题
 SEOTitle: Captain Nemo的博客 | Captain Nemo's Blog          # 搜索的时候，显示在浏览器上的标题
 header-img: img/post-bg-desk.jpg                   # 显示在首页的背景图片
-email: yvonwrong@gmail.com                         # 邮箱
+#email: *********@gmail.com                         # 邮箱
 description: "Captain Nemo's Blog"  # 网站介绍
 keyword: "AI, Machine Learning, Deep Learning, Computer vision, Python, C++"     # 关键词
 url: "http://scottwyh.github.io"          # your host, for absolute URL
@@ -20,7 +20,7 @@ sidebar-avatar: /img/about-Nemo-a.jpg      # 个人头像 use absolute URL, seei
 RSS: false
 zhihu_username:        LEYM2
 # github_username:     LEYM
-weibo_username:       3874115079
+weibo_username:      LEYM
 # wechat_username:       LEYM
 # douban_username:     LEYM
 facebook_username:     LEYM
