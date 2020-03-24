@@ -40,13 +40,13 @@ Anaconda是为方便Python的使用而建立的的软件包全家桶，共含有
 
 -[下载链接](https://www.jetbrains.com/pycharm/)
 
-> 点击download，选择community（免费）下载，下载完成后运行。（如果下载专业版，可自行破解）
+> 1.点击download，选择community（免费）下载，下载完成后运行。（如果下载专业版，可自行破解）
 >
-> 点击next，然后选择pycharm安装路径（使用默认也可）
+> 2.点击next，然后选择pycharm安装路径（使用默认也可）
 >
-> 添加到系统变量(Add launchers dir to the PATH)
+> 3.添加到系统变量(Add launchers dir to the PATH)
 >
-> 点击next，等待安装完成即可。
+> 4.点击next，等待安装完成即可。
 
 ## 创建Pytorch_gpu虚拟环境
 ### 安装对应版本的cuda和cudnn
@@ -81,7 +81,7 @@ Anaconda是为方便Python的使用而建立的的软件包全家桶，共含有
 > print(torch.__version__)
 >
 > 4.run,报错，出现“NO module named 'torch'”，因为当前环境中还没有安装pytorch
-
+>
 > 5.点击下方terminal
 >
 > 6.创建虚拟环境，环境名为pytorch_gpu
