@@ -17,9 +17,7 @@ tags:
 ## 安装Anaconda
 Anaconda是为方便Python的使用而建立的的软件包全家桶，共含有250多个工具包，含有多版本的Python解释器，且能够建立强大的虚拟环境。
 ![](https://github.com/scottwyh/scottwyh.github.io/blob/master/img/20200324-2-anaconda.png)
-
 -[下载链接](https://www.anaconda.com/distribution/#download-section)
-
 > 选择windows->python3.7->64位进行下载，下载完成后双击运行。
 > 1.点击next;
 >
@@ -57,11 +55,10 @@ Anaconda是为方便Python的使用而建立的的软件包全家桶，共含有
 - 我选择的是cuda9.2, 具体来说是cuda_9.2.148_win10[下载链接](https://developer.nvidia.com/cuda-92-download-archive)和cudnn-9.2-windows10-x64-v7.6.5.32[下载链接](https://developer.nvidia.com/rdp/cudnn-download),**cudnn需要注册并登录账号才能下载！**
 
 - 先安装cuda,(1)选择了默认安装路径（默认安装路径C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin）; （2）选择精简，下一步安装；
-
 验证cuda是否安装成功:
 > 输入： cd C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin
 >
->输入：nvcc -V， 若出现Cuda compilation tools, release 9.2类似的语句，则表示安装成功。
+> 输入：nvcc -V， 若出现Cuda compilation tools, release 9.2类似的语句，则表示安装成功。
 
 - 安装cudnn
 > 下载完成后，解压，复制bin、include、lib三个文件夹
@@ -113,6 +110,7 @@ Anaconda是为方便Python的使用而建立的的软件包全家桶，共含有
 ## 测试pytorch是否安装成功
 输入：
 > import torch
+>
 > print(torch.__version__)
 
 若输出：1.2.0+cu92",则安装成功！否则重新安装即可。
