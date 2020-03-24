@@ -115,4 +115,8 @@ Anaconda是为方便Python的使用而建立的的软件包全家桶，共含有
 > import torch
 > print(torch.__version__)
 
-若输出：1.2.0+cu92,则安装成功！否则重新安装即可。
+若输出：1.2.0+cu92",则安装成功！否则重新安装即可。
+
+## 参考文献
+- [Pytorch入门+实战系列一：Windows下的Pytorch环境手把手搭建](https://blog.csdn.net/wuzhongqiang/article/details/104503860)
+- [win10下安装anaconda+pytorch_gpu+pycharm配置](https://blog.csdn.net/qq_39022478/article/details/103938392)
