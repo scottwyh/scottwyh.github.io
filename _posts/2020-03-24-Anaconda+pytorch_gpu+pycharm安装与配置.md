@@ -33,4 +33,42 @@ Anaconda是为方便Python的使用而建立的的软件包全家桶，共含有
 
 > 等待安装完成即可。
 
+### 验证是否安装成功
+ win+R，输入cmd打开命令窗，输入conda，回车。
+ 
+## 安装pycharm
+  Pycharm是一款强大的PythonIDE，拥有调试，语法高亮，Project管理，代码跳转，智能提示，版本控制等功能
+  ![](https://github.com/scottwyh/scottwyh.github.io/blob/master/img/20200324-3-pycharm.jpg)
+
+-[下载链接](https://www.jetbrains.com/pycharm/)
+
+> 点击download，选择community（免费）下载，下载完成后运行。（如果下载专业版，可自行破解）
+>
+> 点击next，然后选择pycharm安装路径（使用默认也可）
+>
+> 添加到系统变量(Add launchers dir to the PATH)
+>
+> 点击next，等待安装完成即可。
+
+## 创建Pytorch_gpu虚拟环境
+### 安装对应版本的cuda和cudnn
+简单来说，CUDA是一个并行运算的一个计算平台，CuDNN是在上面的一个深度神经网络的GPU加速库。
+- 若有GPU，需安装cuda和cudnn,首先要查看cuda、cudnn、pytorch之间版本的对应关系，[查看链接](https://pytorch.org/get-started/locally/)
+- 我选择的是cuda9.2, 具体来说是cuda_9.2.148_win10[下载链接](https://developer.nvidia.com/cuda-92-download-archive)和cudnn-9.2-windows10-x64-v7.6.5.32[下载链接](https://developer.nvidia.com/rdp/cudnn-download),**cudnn需要注册并登录账号才能下载！**
+
+- 先安装cuda,(1)选择了默认安装路径（默认安装路径C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin）; （2）选择精简，下一步安装；
+
+验证cuda是否安装成功:
+> 输入： cd C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin
+>
+>输入：nvcc -V， 若出现Cuda compilation tools, release 9.2类似的语句，则表示安装成功。
+
+- 安装cudnn
+> 下载完成后，解压，复制bin、include、lib三个文件夹
+>
+> 粘贴到cuda安装目录下（如果是默认安装路径，则粘贴到C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2）
+
+## 安装Pytorch(即:torch和torchvision)
+进入[pytorch网站]( https://pytorch.org/get-started/locally/)
+选择pip下载，进入run this command里面的[torch和torchvision下载网址](https://download.pytorch.org/whl/torch_stable.html),会看到很多版本，选择对应版本，我选择的是torch-1.2.0+cu92-cp37-cp37m-win_amd64.whl和torchvision-0.4.0+cu92-cp37-cp37m-win_amd64.whl
 
