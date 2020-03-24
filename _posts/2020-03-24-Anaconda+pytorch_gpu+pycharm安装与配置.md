@@ -17,7 +17,8 @@ tags:
 ## 安装Anaconda
 Anaconda是为方便Python的使用而建立的的软件包全家桶，共含有250多个工具包，含有多版本的Python解释器，且能够建立强大的虚拟环境。
 ![](https://github.com/scottwyh/scottwyh.github.io/blob/master/img/20200324-2-anaconda.png)
-> [下载链接](https://www.anaconda.com/distribution/#download-section)
+- [下载链接](https://www.anaconda.com/distribution/#download-section)
+
 选择windows->python3.7->64位进行下载，下载完成后双击运行。
 (1) 点击next;
 (2) 点击I Agree;
