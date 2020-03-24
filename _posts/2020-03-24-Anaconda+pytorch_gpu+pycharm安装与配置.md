@@ -73,39 +73,46 @@ Anaconda是为方便Python的使用而建立的的软件包全家桶，共含有
 选择pip下载，进入run this command里面的[torch和torchvision下载网址](https://download.pytorch.org/whl/torch_stable.html),会看到很多版本，选择对应版本，我选择的是torch-1.2.0+cu92-cp37-cp37m-win_amd64.whl和torchvision-0.4.0+cu92-cp37-cp37m-win_amd64.whl
 
 ## 配置pycharm
-> 打开pycharm，创建新的项目(file->new project，写个工程名xxx)
+> 1.打开pycharm，创建新的项目(file->new project，写个工程名xxx)
 >
-> 在这个新的项目里面，建一个py脚本(工程名右击，新建：new->python file->写个yyy)
+> 2.在这个新的项目里面，建一个py脚本(工程名右击，新建：new->python file->写个yyy)
 >
-> 输入：
+> 3.输入：
 >
 > import torch
 >
 > print(torch.__version__)
 >
-> run,报错，出现“NO module named 'torch'”，因为当前环境中还没有安装pytorch
+> 4.run,报错，出现“NO module named 'torch'”，因为当前环境中还没有安装pytorch
 
-> 点击下方terminal
+> 5.点击下方terminal
 >
-> 创建虚拟环境，环境名为pytorch_gpu
+> 6.创建虚拟环境，环境名为pytorch_gpu
 输入: conda create -n pytorch_gpu python=3.7 (pytorch_gpu是新建环境的名字，也可写成其他任意的）
 >
-> 如果安装不成功，如下图，则需要输入图中命令先升级conda
+> 7.如果安装不成功，如下图，则需要输入图中命令先升级conda
 >
-> 激活环境： conda activate pytorch_gpu,激活成功后，会显示（pytorch_gpu）(venv)
+> 8.激活环境： conda activate pytorch_gpu,激活成功后，会显示（pytorch_gpu）(venv)
 >
-> 虚拟环境中安装pytorch:复制pytorch的下载文件存放的路径名，复制该路径名（如D:\softwares\softwares-windows_anaconda_pycharm_pytorch
+> 9.虚拟环境中安装pytorch:复制pytorch的下载文件存放的路径名，复制该路径名（如D:\softwares\softwares-windows_anaconda_pycharm_pytorch
 >
-> cd 该路径名（可能会出现的问题：不能进入该目录，[原因与解决办法](https://blog.csdn.net/nanchifeng3190/article/details/86688614)）
+> 10.cd 该路径名（可能会出现的问题：不能进入该目录，[原因与解决办法](https://blog.csdn.net/nanchifeng3190/article/details/86688614)）
 >
-> 进入该路径名后，输入pip install "torch-1.2.0+cu92-cp37-cp37m-win_amd64.whl"
+> 11.进入该路径名后，输入pip install "torch-1.2.0+cu92-cp37-cp37m-win_amd64.whl"
 >
 > 等待安装(安装的速度、安装能否成功均与网络快慢密切相关)，待安装成功后
 >
-> 再输入pip install "torchvision-0.4.0+cu92-cp37-cp37m-win_amd64.whl"
+> 12.再输入pip install "torchvision-0.4.0+cu92-cp37-cp37m-win_amd64.whl"
 >
 > 等待安装(安装的速度、安装能否成功均与网络快慢密切相关)。
 >
-> 待安装成功后，就只剩下一步了，即将我们创建的虚拟环境pytorch_gpu关联到当前项目中（file->settings->点击右上方小齿轮，点击add local，选择conda environment,选择existing environment->interpreter，选择这个虚拟环境所在的文件夹,如C:\user\Anaconda3\envs\pytorch_gpu\python.exe）
+> 13.待安装成功后，就只剩下一步了，即将我们创建的虚拟环境pytorch_gpu关联到当前项目中（file->settings->点击右上方小齿轮，点击add local，选择conda environment,选择existing environment->interpreter，选择这个虚拟环境所在的文件夹,如C:\user\Anaconda3\envs\pytorch_gpu\python.exe）
 >
 > 可能pycharm会报错：pycharm please specify a different SDK name，[原因与解决办法](https://blog.csdn.net/wu_l_v/article/details/79049718)是有两个*现有*虚拟环境具有相同的名称，删除其中一个之后，就可以创建新的虚拟环境，具体操作是：（1）在setting里面的解释器选择里面，打开show all；（2）在以下弹出窗口里边，对于重名环境用右边“-”进行删除，问题就解决啦。
+
+## 测试pytorch是否安装成功
+输入：
+> import torch
+> print(torch.__version__)
+
+若输出：1.2.0+cu92,则安装成功！否则重新安装即可。
